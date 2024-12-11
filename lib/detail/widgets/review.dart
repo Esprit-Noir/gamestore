@@ -11,10 +11,10 @@ class ReviewSection extends StatelessWidget {
       padding: const EdgeInsets.all(25),
       child: Column(
         children: [
-          Row(
+          const Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             crossAxisAlignment: CrossAxisAlignment.start,
-            children: const [
+            children: [
               Text(
                 'Ratings and review',
                 style: TextStyle(
